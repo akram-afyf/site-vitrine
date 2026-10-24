@@ -11,13 +11,10 @@
     <h1>Mon site vitrine</h1>
     <nav>
       <a href="#accueil">Accueil</a>
-      <a href="#apropos">À propos</a>
+      <a href="about.html">À propos</a>
       <a href="#services">Services</a>
       <a href="#contact">Contact</a>
-        <a href="index.html">Accueil</a>
-        <!-- Les autres liens de ton site (ex: Services, À propos, etc.) -->
-        <a href="login.html">Connexion</a>
-    <
+      <a href="login.html">Connexion</a>
     </nav>
   </header>
 
@@ -29,19 +26,26 @@
 
     <section id="services">
       <h2>Nos services</h2>
-      <article>
-        <h3>Service 1</h3>
-        <p>Description du premier service.</p>
-      </article>
-      <article>
-        <h3>Service 2</h3>
-        <p>Description du second service.</p>
-      </article>
+      <div class="cards">
+        <article class="card">
+          <h3>Service 1</h3>
+          <p>Description du premier service.</p>
+        </article>
+        <article class="card">
+          <h3>Service 2</h3>
+          <p>Description du second service.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Écrivez-nous : contact@site-vitrine.example</p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; <span id="annee"></span> Mon site vitrine</p>
+    <p>&copy; 2026 Mon site vitrine</p>
   </footer>
 
   <script src="js/script.js"></script>
