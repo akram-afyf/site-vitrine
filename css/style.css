@@ -33,17 +33,3 @@ main {
   margin: 2rem auto;
   padding: 0 1rem;
 }
-
-section {
-  background: white;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #222;
-  color: white;
-}
